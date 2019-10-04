@@ -1,0 +1,67 @@
+#timeline {
+    overflow-x: hidden;
+    background-color: darkslategrey;
+    color: azure
+}
+
+
+.item-eight h3{
+    color: darkorange;
+}
+
+
+
+@media(min-width: 900px){
+    .mason-dixon{
+        border-top: 5px solid azure;
+        /* padding-top: 20px; */
+        margin-top: 250px;
+        margin-bottom: 40px;
+    }
+
+    .special-south{
+        float: left;
+        width: 15%;
+        padding-left: 8px;
+        margin-top: -120px;
+    }
+
+    .reg-timeline  {
+        float: left;
+        width: 110px;
+        padding-left: 8px;
+        border-left: 2px solid azure;
+    }  
+
+    .north {
+        margin-top: -210;
+        margin-bottom: 210;
+    }
+
+    .item-two {
+        margin-left: 50px;
+    }
+
+    .item-eight {
+        margin-left: 50px;
+        float:right;
+        padding-left: 15px;
+    }
+
+    .special-south h3 {
+        font-size: 3.2em;
+    }
+
+    .item-eight h3 {
+        padding-left: 15
+    }
+
+    .orange-box-timeline {
+        background-color: rgba(240, 115, 13, 0.7);
+        padding-top: 10px;
+        padding-bottom: 14px;
+        margin-top: -41px;
+        padding-left: 15
+    }
+}
+  

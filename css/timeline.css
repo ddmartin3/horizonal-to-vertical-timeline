@@ -11,30 +11,49 @@
 
 
 
-@media(min-width: 900px){
+@media(min-width: 1200px){
     .mason-dixon{
-        border-top: 5px solid azure;
-        /* padding-top: 20px; */
+        border-top: 3px solid azure;
         margin-top: 250px;
         margin-bottom: 40px;
     }
 
+    .reg-container {
+        position: relative;
+        display: inline-block;
+        width: 64%;
+    }
+
     .special-south{
+        position: relative;
         float: left;
         width: 15%;
-        padding-left: 8px;
         margin-top: -120px;
     }
 
     .reg-timeline  {
         float: left;
-        width: 110px;
-        padding-left: 8px;
-        border-left: 2px solid azure;
+        width: 15%;
     }  
 
+    .reg-content-wrapper{
+        width: 136px;
+        padding-left: 8px;
+        border-left: 2px solid azure;
+    }
+
+    .item-one{
+        text-align: right;
+        padding-left: 10px;
+    }
+
+    .item-one h3 {
+        margin-right: 16px;
+        padding-right: 10px;
+    }
+
     .north {
-        margin-top: -210;
+        margin-top: -189px;
         margin-bottom: 210;
     }
 
@@ -42,10 +61,25 @@
         margin-left: 50px;
     }
 
+    .item-four {
+        position: relative;
+        left: 40px;
+    }
+
+    .item-six {
+        position: relative;
+        right: 40px;
+    }
+
+    .item-seven {
+        position: absolute;
+        right: -32px;
+    }
+
     .item-eight {
-        margin-left: 50px;
+        /* margin-left: 50px; */
         float:right;
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
 
     .special-south h3 {
@@ -56,12 +90,53 @@
         padding-left: 15
     }
 
+    .clear-box-timeline {
+        padding-top: 10px;
+        padding-bottom: 14px;
+        margin-top: -42px;
+        margin-right: 16px;
+        padding-right: 10px;
+        border-right: 1px solid azure;
+    }
+
     .orange-box-timeline {
         background-color: rgba(240, 115, 13, 0.7);
         padding-top: 10px;
         padding-bottom: 14px;
-        margin-top: -41px;
-        padding-left: 15
+        margin-top: -42px;
+        padding-left: 15;
+        border-left: 1px solid azure;
     }
+
+    .reg-timeline .termination-ball {
+        height: 17px;
+        width: 17px;
+        margin: -10px -16.9px;
+        border-radius: 50%;
+        background: #fc6429;
+    }
+
+    .arrow-left {
+        width: 0; 
+        height: 0; 
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid azure;
+        position: absolute;
+        top: 98px;
+        right: 16px;
+    }
+
+    .arrow-right {
+        width: 0; 
+        height: 0; 
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid azure;
+        position: absolute;
+        top: 98px;
+}
+    }
+      
 }
   
